@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+    font-family: 'Source Serif Pro';
+}
+
+/*шапка*/
+.header { 
+    background-color: #312727; 
+    color: white;
+    height: 55px;
+    padding: 15px 40px;
+    position: sticky; 
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*логотип*/
+.logo {
+    position: absolute;
+    left: 324px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+/*место для текста*/
+.nav {
+    display: flex;
+    margin-left: 150px;
+    gap: 35px;
+    align-items: center; 
+}
+
+/*текст*/
+.nav a {
+    padding-left: 886;
+    color: white;
+    font-family: 'Source Serif Pro';
+    text-decoration: none;
+    font-size: 16px;      
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)   
+}
+
+/*гиперссылка*/
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.text-center {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center; 
+    margin-top: 20px;  
+}
+
+/* Отступ от текста */
+.image-container {
+    margin-top: 20px; 
+    padding: 0 ;
+}
+
+.section1{
+    background-color: white;
+    padding: 20px;
+}
+
+.section2{
+    background: linear-gradient(#75A0DF,#D9D9D9) ;
+    padding: 20px;
+}
+
+/* НАШИ ЗАКАЗЧИКИ ВЫСОКО ЦЕНЯТ */
+.text-center2 {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.85);
+    text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25); 
+}
+
+ .advantages {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 100px;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: auto;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.item p {
+    margin-top: 20px;    
+    font-family: 'Source Serif Pro', serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.company-left{
+    flex: 1;
+    text-align: center;
+    font-family: 'Source Serif Pro';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.15em;
+    color: black;
+    margin-left: 200px;
+    margin-top: auto;
+}
+
+.company-right{
+    flex: 1;
+    text-align: justify;
+    margin-left: 20px; /* Отступ между колонками */
+    font-family: 'Source Serif Pro';
+    font-size: 16px;
+    color: black;
+    margin-right: 120px;
+}
+
+
+.prem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.block {
+    text-align: center;
+    margin: 20px;
+}
+
+.number {
+    font-family: 'Caveat', cursive;
+    font-size: 34px;
+    font-style: italic;
+    color: #3C48B8;
+}
+
+.employees {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+    color: rgba(6, 0, 0, 0.8);
+}
+
+.section3{
+    background: #16181C;
+    padding: 20px;
+}
+
+.text-center3 {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25); 
+}
+
+.predlojenia {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    margin-top: 20px; 
+}
+
+.left-sector, .right-sector {
+    text-align: center; 
+    flex: 1; 
+}
+
+.left-sector img, .right-sector img {
+    width: 100%; 
+    max-width: 543px; 
+    height: 405; 
+}
+
+.zag {
+    font-family: 'Source Serif Pro', serif;
+    margin-right: 120px;
+    margin-left: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+    margin-top: 10px; 
+}
+
+.opisanie {
+    font-family: 'Source Serif Pro', serif;
+    margin-right: 120px;
+    margin-left: 100px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: white; 
+    margin-top: 5px; 
+}
+
+.section4{
+    background: #1D2941;
+    padding: 20px;
+}
+
+.header4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header4 img {
+    max-width: 125px;
+    margin-left: 250px;
+}
+
+.header4 p {
+    font-size: 24px;
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-right: 50px;
+    color: white;
+    
+}
+
+.content4 {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px 100px; 
+}
+
+.left-section4 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+}
+
+.left-section4 p {
+    font-family: 'Source Serif Pro', serif;
+    margin-left: 175px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: white; 
+    margin-bottom: 5px;
+}
+
+.right-section4 {
+    text-align: left; 
+    font-family: 'Source Serif Pro', serif;
+    margin-right: 125px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: white; 
+    margin-top: 5px; 
+    line-height: 25px;
+}
+
+hr {
+    border: none; 
+    height: 1px; 
+    background-color: white; 
+    width: 100%; 
+    margin-top: 50px;
+}
+
+.podv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.podv p{
+    font-family: 'Source Serif Pro', serif;
+    margin-left: 250px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    color: white; 
+    margin-bottom: 5px;
+}
+
+.podv img {
+    height: 30px; 
+    width: 30px; 
+    margin-left: 15px;
+    margin-top: 15px;
+}
