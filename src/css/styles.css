@@ -113,6 +113,14 @@ body {
     color: #000000;
 }
 
+.company_z{
+    color: #3C48B8; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    font-size: 24px; 
+    margin-top: 5px; 
+    margin-left: 200px
+}
+
 .company{
     display: flex;
     justify-content: space-between;
