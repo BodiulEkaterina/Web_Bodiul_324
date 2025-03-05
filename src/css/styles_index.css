@@ -1,67 +1,74 @@
 body {
     margin: 0;
-    font-family: 'Source Serif Pro';
+    font-family: 'Arial';
 }
 
-/*шапка*/
+/*место для шапки*/
 .header { 
-    background-color: #312727; 
+    background-color: #23606F; 
     color: white;
-    height: 55px;
-    padding: 15px 40px;
-    position: sticky; 
-    top: 0;
+    height: 34px;    
+    padding-top: 12px;
+    padding-bottom: 12px;    
+    position: fixed;  
+    top: 0;           
+    left: 0;          
+    right: 0;        
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    width: 100%;      
 }
 
-/*логотип*/
+/*логотип шапка*/
 .logo {
-    position: absolute;
-    left: 324px;
+    position: flex;
     text-align: left;
-    margin-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin-right: 126px;
+
 }
 
-/*место для текста*/
+.logo img{    
+    width: auto;
+    height: 30px;  
+}
+
+/*контейнер для текста шапка*/
 .nav {
     display: flex;
-    margin-left: 150px;
-    gap: 35px;
-    align-items: center; 
+    gap: 60px;
 }
 
-/*текст*/
-.nav a {
-    padding-left: 886;
+/*текст шапка*/
+.nav a {    
+    font-style: normal;
+    font-size: 18px;
     color: white;
-    font-family: 'Source Serif Pro';
+    font-family: 'Arial';
     text-decoration: none;
-    font-size: 16px;      
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)   
 }
 
-/*гиперссылка*/
+/*гиперссылки шапка*/
 .nav a:hover {
     text-decoration: underline;
+    color: #A1D6D8; 
 }
 
 .text-center {
-    font-family: 'Source Serif Pro';
+    font-family: 'Arial';
     font-style: normal;
     font-size: 24px;
     line-height: 30px;
     text-align: center; 
-    margin-top: 20px;  
+    margin-top: 80px;  
 }
 
 /* Отступ от текста */
 .image-container {
     margin-top: 20px; 
-    padding: 0 ;
 }
 
 .section1{
@@ -70,13 +77,13 @@ body {
 }
 
 .section2{
-    background: linear-gradient(#75A0DF,#D9D9D9) ;
+    background: linear-gradient(#D9D9D9,#a0b2cc) ;
     padding: 20px;
 }
 
 /* НАШИ ЗАКАЗЧИКИ ВЫСОКО ЦЕНЯТ */
 .text-center2 {
-    font-family: 'Source Serif Pro';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -90,13 +97,15 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    margin: 0 100px;
-    gap: 50px;
+    margin-left: 200px;
+    margin-right: 120px;    
     margin-bottom: 20px;
+    gap: 60px;
 }
 
 .item {
     text-align: center;
+    width: auto;
 }
 
 .item img {
@@ -108,30 +117,42 @@ body {
 
 .item p {
     margin-top: 20px;    
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Arial';
     font-size: 16px;
     color: #000000;
 }
 
-.company_z{
+.company_z {
     color: #3C48B8; 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
     font-size: 24px; 
     margin-top: 5px; 
-    margin-left: 200px
+    margin-left: 220px;
+    margin-bottom: 4px;
+}
+
+.company_z a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.company_z a:hover {
+    text-decoration: underline;
+    color: #A1D6D8; 
 }
 
 .company{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 5px;
+    align-items: center; 
+    margin-left: 220px;    
+    margin-right: 200px;
 }
 
 .company-left{
     flex: 1;
     text-align: center;
-    font-family: 'Source Serif Pro';
+    font-family: 'Arial';
     font-weight: bold;
     font-size: 24px;
     line-height: 40px;
@@ -140,20 +161,16 @@ body {
     text-align: justify;
     letter-spacing: 0.15em;
     color: black;
-    margin-left: 200px;
-    margin-top: auto;
 }
 
 .company-right{
     flex: 1;
     text-align: justify;
-    margin-left: 20px; /* Отступ между колонками */
-    font-family: 'Source Serif Pro';
+    margin-left: 20px;
+    font-family: 'Arial';
     font-size: 16px;
     color: black;
-    margin-right: 120px;
 }
-
 
 .prem {
     display: flex;
@@ -178,7 +195,7 @@ body {
 }
 
 .employees {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Arial'  ;
     font-size: 20px;
     color: rgba(6, 0, 0, 0.8);
 }
@@ -189,7 +206,7 @@ body {
 }
 
 .text-center3 {
-    font-family: 'Source Serif Pro';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -204,6 +221,7 @@ body {
     justify-content: center; 
     gap: 10px; 
     margin-top: 20px; 
+    padding: 20px;
 }
 
 .left-sector, .right-sector {
@@ -212,13 +230,12 @@ body {
 }
 
 .left-sector img, .right-sector img {
-    width: 100%; 
-    max-width: 543px; 
-    height: 405; 
+    width: auto ; 
+    height: 352px; 
 }
 
 .zag {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Arial';
     margin-right: 120px;
     margin-left: 100px;
     font-size: 24px;
@@ -229,7 +246,7 @@ body {
 }
 
 .opisanie {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Arial';
     margin-right: 120px;
     margin-left: 100px;
     font-size: 16px;
@@ -241,27 +258,26 @@ body {
 
 .section4{
     background: #1D2941;
-    padding: 20px;
+    padding-bottom: 20px;
 }
 
 .header4{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
 }
-
 .header4 img {
-    max-width: 125px;
-    margin-left: 250px;
+    margin-left: 275px;
+    width: auto;
+    height: 30px; 
 }
 
 .header4 p {
     font-size: 24px;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Arial';
     text-align: center;
     letter-spacing: 3px;
-    margin-right: 50px;
+    margin-right: 210px;
     color: white;
     
 }
@@ -269,7 +285,8 @@ body {
 .content4 {
     display: flex; 
     justify-content: space-between; 
-    padding: 20px 100px; 
+    gap: 60px;
+    margin: 20px 100px;
 }
 
 .left-section4 {
@@ -278,25 +295,50 @@ body {
     justify-content: flex-start; 
 }
 
-.left-section4 p {
-    font-family: 'Source Serif Pro', serif;
+.left-section4 .link {
+    font-family: 'Arial';
     margin-left: 175px;
     font-size: 14px;
+    width: 200px;
     letter-spacing: 1px;
     text-align: justify;
     color: white; 
     margin-bottom: 5px;
+    margin-top: 5px; 
+    display: block;     
+    text-decoration: none;
+    line-height: 25px;
 }
 
-.right-section4 {
+.left-section4 .link:hover {
+    text-decoration: underline;
+    color: #A1D6D8; 
+}
+
+.center-section4 p {
     text-align: left; 
-    font-family: 'Source Serif Pro', serif;
-    margin-right: 125px;
+    font-family: 'Arial';
+    width: 290px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white; 
+    margin-top: 5px; 
+    margin-bottom: 2px;
+    line-height: 25px;
+}
+
+.right-section4 p {
+    text-align: left; 
+    font-family: 'Arial';
+    margin-right: 110px;
+    margin-bottom: 2px;
+    margin-top: 5px; 
+    width: 300px;
     font-size: 14px;
     letter-spacing: 1px;
     text-align: justify;
     color: white; 
-    margin-top: 5px; 
     line-height: 25px;
 }
 
@@ -312,17 +354,21 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 50px;
+    margin-right: 110px;
 }
 
 .podv p{
-    font-family: 'Source Serif Pro', serif;
-    margin-left: 250px;
-    font-size: 16px;
+    font-family: 'Arial';
+    margin-left: 275px;
+    font-size: 18px;
     letter-spacing: 1.5px;
     text-align: justify;
     color: white; 
     margin-bottom: 5px;
+    font-style: normal;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: 0.03em;
 }
 
 .podv img {
@@ -331,3 +377,4 @@ hr {
     margin-left: 15px;
     margin-top: 15px;
 }
+

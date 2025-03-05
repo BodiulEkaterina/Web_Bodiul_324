@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Arial';
+}
+
+/*место для шапки*/
+.header { 
+    background-color: #23606F; 
+    color: white;
+    height: 34px;    
+    padding-top: 12px;
+    padding-bottom: 12px;    
+    position: fixed;  
+    top: 0;           
+    left: 0;          
+    right: 0;        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;      
+}
+
+/*логотип шапка*/
+.logo {
+    position: flex;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin-right: 126px;
+
+}
+
+.logo img{    
+    width: auto;
+    height: 30px;  
+}
+
+/*контейнер для текста шапка*/
+.nav {
+    display: flex;
+    gap: 60px;
+}
+
+/*текст шапка*/
+.nav a {    
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+    font-family: 'Arial';
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+/*гиперссылки шапка*/
+.nav a:hover {
+    text-decoration: underline;
+    color: #A1D6D8; 
+}
