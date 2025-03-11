@@ -1,0 +1,139 @@
+html, body {
+    height: 100%; /* Устанавливаем высоту для html и body */
+    margin: 0; /* Убираем отступы */
+    overflow: hidden; /* Отключаем прокрутку */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* ШАПКА */
+.header { 
+    background-color: #23606F; 
+    color: white;
+    height: 34px;    
+    padding-top: 12px;
+    top: 0;
+    padding-bottom: 12px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;      
+    position: static; 
+    z-index: 1000; 
+}
+
+.logo {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin-right: 126px;
+}
+
+.logo img {    
+    width: auto;
+    height: 30px;  
+}
+
+.nav {
+    display: flex;
+    gap: 60px;
+}
+
+.nav a {    
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: #A1D6D8; 
+}
+
+/* Обратная связь */
+#feedback {
+    background-color: #1D2941; /* Синий фон */
+    color: white; /* Белый текст */
+    text-align: center;
+    height: calc(100vh - 34px); /* Высота на всю видимую область минус высота шапки */
+    display: flex; /* Используем Flexbox для центрирования */
+    flex-direction: column; /* Вертикальное расположение элементов */
+    justify-content: center; /* Центрируем содержимое по вертикали */
+}
+
+.feedback-container {
+    max-width: 400px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
+}
+
+h2 {
+    margin-bottom: 30px; /* Отступ снизу */
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 43px;
+    text-align: center; /* Центрируем текст по горизонтали */
+    letter-spacing: 5px;
+    color: #FFFFFF;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 600px; /* Полная ширина */
+    padding: 10px;
+    margin-bottom: 15px; /* Отступ между полями */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 18px; 
+    line-height: 23px; 
+    color: #000000;
+}
+
+input::placeholder {
+    color: #aaa; /* Цвет текста плейсхолдера */
+    font-family: 'Arial'; /* Плейсхолдер также с указанным шрифтом */
+    font-style: italic;
+    font-weight: 200;
+    font-size: 18px; 
+}
+
+form {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+button {
+    margin-top: 22px; 
+    background: #FF8800; 
+    border-radius: 12px; 
+    color: #FFFFFF; 
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer; 
+    width: 250px;
+    height: 50px;
+    font-family: 'Arial'; 
+    font-weight: 700; /* Жирность текста */
+    font-size: 24px; /* Размер текста */
+    line-height: 28px; /* Высота строки */
+    display: flex; /* Flex для центрирования текста */
+    justify-content: center; /* Горизонтальное центрирование текста */
+    align-items: center; /* Вертикальное центрирование текста */
+    text-align: center; /* Горизонтальное выравнивание текста */
+    letter-spacing: 0.05em; /* Межбуквенный интервал */
+}
+
+button:hover {
+    background-color: #f6992f; /* Цвет кнопки при наведении */
+}
