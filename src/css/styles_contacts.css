@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0; 
+    padding: 0; 
+}
+
+main {
+    padding-top: 60px; 
+}
+
+/* ШАПКА */
+.header { 
+    background-color: #23606F; 
+    color: white;
+    height: 34px;    
+    padding-top: 12px;
+    padding-bottom: 12px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;      
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+}
+
+.logo {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin-right: 126px;
+}
+
+.logo img {    
+    width: auto;
+    height: 30px;  
+}
+
+.nav {
+    display: flex;
+    gap: 60px;
+}
+
+.nav a {    
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: #A1D6D8; 
+}
+
+/* Наши контакты */
+#contact {
+    margin: 18px 6px; 
+    padding: 14px 100px;
+    background: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.contact-container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contact-group {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 20px; /* Отступ между группами */
+}
+
+.contact-1, .contact-2 {
+    width: 30%; 
+    text-align: center;
+}
+
+.contact-2 p{
+    text-align: justify;
+}
+
+/* Остальные стили остаются без изменений */
+#contact h2 {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 24px; 
+    color: #000000;
+    margin-bottom: 5px; 
+}
+
+#contact h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+}
+
+
+/* Подвал */
+.section4{
+    background: #1D2941;
+    padding-bottom: 20px;
+}
+
+.header4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header4 img {
+    margin-left: 275px;
+    width: auto;
+    height: 30px; 
+}
+
+.header4 p {
+    font-size: 24px;
+    font-family: 'Arial';
+    text-align: center;
+    letter-spacing: 3px;
+    margin-right: 210px;
+    color: white;
+    
+}
+
+.content4 {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 60px;
+    margin: 20px 100px;
+}
+
+.left-section4 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+}
+
+.left-section4 .link {
+    font-family: 'Arial';
+    margin-left: 175px;
+    font-size: 14px;
+    width: 200px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: white; 
+    margin-bottom: 5px;
+    margin-top: 5px; 
+    display: block;     
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.left-section4 .link:hover {
+    text-decoration: underline;
+    color: #A1D6D8; 
+}
+
+.center-section4 p {
+    text-align: left; 
+    font-family: 'Arial';
+    width: 290px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white; 
+    margin-top: 5px; 
+    margin-bottom: 2px;
+    line-height: 25px;
+}
+
+.right-section4 p {
+    text-align: left; 
+    font-family: 'Arial';
+    margin-right: 110px;
+    margin-bottom: 2px;
+    margin-top: 5px; 
+    width: 300px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: white; 
+    line-height: 25px;
+}
+
+hr {
+    border: none; 
+    height: 1px; 
+    background-color: white; 
+    width: 100%; 
+    margin-top: 50px;
+}
+
+.podv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 110px;
+}
+
+.podv p{
+    font-family: 'Arial';
+    margin-left: 275px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    color: white; 
+    margin-bottom: 5px;
+    font-style: normal;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: 0.03em;
+}
+
+.podv img {
+    height: 30px; 
+    width: 30px; 
+    margin-left: 15px;
+    margin-top: 15px;
+}
