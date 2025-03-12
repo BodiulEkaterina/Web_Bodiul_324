@@ -285,3 +285,70 @@ hr {
     margin-left: 15px;
     margin-top: 15px;
 }
+
+/* ДЕВИЗ */
+.dev_rec {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: auto; 
+    height: 34px; 
+    margin: 18px 6px; 
+    margin-top: 34px;
+    padding: 10px 100px;
+    background: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.dev_txt {    
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 18px; 
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+/* Кнопка */
+:root {
+    --primary-color: #FF8800;
+    --hover-color: #f6992f;
+    --active-color: #e07a00;
+    --text-color: #FFFFFF;
+    --border-radius: 12px;
+    --font-family: 'Arial', sans-serif;
+}
+
+.button {
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+}
+
+.button a {
+    margin-bottom: 22px;
+    background: var(--primary-color);
+    border-radius: var(--border-radius);
+    color: var(--text-color);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    height: 34px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    transition: background-color 0.3s ease; 
+}
+
+.button a:hover {
+    background-color: var(--hover-color); 
+    opacity: 0.9; 
+}
